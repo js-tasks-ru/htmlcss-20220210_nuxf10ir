@@ -1,6 +1,7 @@
 @import '../fonts/fonts.css';
 
 :root {
+    --none: none;
     --white: #ffffff;
     --black: #212429;
     --pink: #F784AD;
@@ -17,6 +18,22 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+
+
+    --button-primary-default: #4263EB;
+    --button-primary-hover: #2342C0;
+    --button-primary-disabled: #4263EB;
+
+    --button-secondary-default: #7048E8;
+    --button-secondary-hover: #5028C6;
+    --button-secondary-disabled: #7048E8;
+
+    --button-alternate-default: var(--none);
+    --button-alternate-hover: var(--none);
+    --button-alternate-disabled: var(--none);
+
+
 }
 
 * {
